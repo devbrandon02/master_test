@@ -1,0 +1,21 @@
+{
+  "name": "mastertechnical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ts-node ./server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/catbox-redis": "^7.0.2",
+    "@hapi/hapi": "^21.3.9",
+    "node-fetch": "^3.3.2",
+    "redis": "^4.6.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
